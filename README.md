@@ -1,8 +1,8 @@
 # Ansible Role: NFS
 
-Add build status for fork
+[![Build Status](https://travis-ci.org/mediapeers/ansible-role-nfs.svg?branch=master)](https://travis-ci.org/mediapeers/ansible-role-nfs)
 
-Installs NFS utilities on RedHat/CentOS or Debian/Ubuntu.
+Installs NFS utilities on Debian/Ubuntu or RedHat/CentOS.
 
 ## Requirements
 
