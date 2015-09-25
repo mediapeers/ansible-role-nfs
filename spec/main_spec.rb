@@ -11,6 +11,6 @@ describe "NFS server setup" do
 
   describe file('/etc/exports') do
     it { should be_file }
-    it { should contain "#{ANSIBLE_VARS.fetch('nfs_exports', ['FAIL']).join("\n")}" }
+    its(:content) { should include("#{ANSIBLE_VARS.fetch('nfs_exports', ['FAIL']).join("\n")}") }
   end
 end
