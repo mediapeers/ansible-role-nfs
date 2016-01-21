@@ -1,5 +1,9 @@
 ---
 - hosts: localhost
-  remote_user: root
+  become: true
+  vars:
+    nfs_exports:
+      - "/mnt *(rw,sync,no_root_squash)"
+      - "/tmp 123.123.123.123(rw,sync)"
   roles:
     - ansible-role-nfs
