@@ -11,9 +11,7 @@ before_install:
   - sudo apt-get update -qq
 
 install:
-  # Install ruby for and serverspec gem
-  - sudo apt-get install -y ruby
-  - ruby -v
+  # Install serverspec gem for testing
   - gem install serverspec
 
   # Install Ansible through pip
