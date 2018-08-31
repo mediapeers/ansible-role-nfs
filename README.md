@@ -1,5 +1,6 @@
-# Ansible Role: NFS
-[![Build Status](https://travis-ci.org/mediapeers/ansible-role-nfs.svg?branch=master)](https://travis-ci.org/mediapeers/ansible-role-nfs)
+[![Build Status](https://travis-ci.com/mediapeers/ansible-role-nfs.svg?branch=master)](https://travis-ci.com/mediapeers/ansible-role-nfs)
+
+# Ansible Role for NFS server setup
 
 Installs NFS utilities on Debian/Ubuntu or RedHat/CentOS and sets up shares.
 
